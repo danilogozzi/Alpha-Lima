@@ -1,0 +1,460 @@
+@charset "utf-8";
+body{
+    background-color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   height: auto;
+}
+body a{
+    color: #28a1d5;
+}
+body a:hover{
+    text-decoration: none;
+}
+html{
+    background-color: gray;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#whatscontato{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 0 20px 20px 0;
+    z-index: 1;
+}
+#whatscontato:hover{
+    filter: brightness(120%);
+}
+
+/*INÍCIO HEADER*/
+header{
+    background-color: whitesmoke;
+}
+#barra-topo{
+    background: #222222;
+}
+#whats:hover{
+    filter: brightness(110%);
+}
+#face:hover{
+    filter: brightness(120%);
+}
+#insta:hover{
+    filter: brightness(110%);
+}
+#menu{
+    background-color: #222222;
+    padding: 20px 0px;
+    z-index: 1;
+}
+#menu a{
+    color: whitesmoke;
+}
+#menu a i{
+    color: #28a1d5;
+}
+#menu a:hover{
+    color: #28a1d5;
+}
+#menu a:hover i{
+    color: white;
+}
+#email a{
+    color: white;
+
+}
+#email a{
+    text-decoration: none;
+}
+span#email{
+    font-size: 10pt;
+}
+/*FIM HEADER*/
+
+/*SECTION 1*/
+#cx-vd1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+#cx-tx1{
+    width: 100%;
+    object-fit: cover;
+    bottom: 220px;
+}
+#btn1{
+    width: 400px;
+    padding: 8px;
+    background-color: #28a1d5;
+    color: white;
+}
+#btn1 a{
+    text-decoration: none;
+    color: white;
+}
+#btn1:hover{
+    background-color: #222222;
+    color: white;
+}
+/*FIM SECTION 1*/
+
+
+
+/*INÍCIO SEÇÃO 2*/
+
+section{
+    text-align: center;
+}
+#logo2{
+    width: 200px;
+    height: 250px;
+}
+#pt1 a:hover{
+    border-bottom: 1px solid #28a1d5;
+}
+#pt1 a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 14pt;
+    color: white;
+}
+#pt1 i{
+    color: #28a1d5;
+}
+#pt3 b{
+    list-style: none;
+    text-decoration: none;
+    font-size: 14pt;
+    color: white;
+}
+#pt3 a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 14pt;
+    color: white;
+}
+#pt3 i{
+    color: white;
+}
+#pt3 a:hover{
+    color: #28a1d5;
+}
+#pt3 i:hover{
+    color: white;
+}
+#cx-tx2{
+    height: 400px;
+    background-color: #28a1d5;
+}
+#tx1{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    width: 100%;
+}
+#tx1 h1{
+    font-size: 40pt;
+}
+#btn2{
+    background-color: white;
+    padding: 10px 30px;
+}
+#btn2:hover{
+    background-color: #222222;
+    color: white;
+}
+#btn2 a:hover{
+    color: white;
+}
+
+
+#cx-tx3{
+    padding-top: 50px;
+    background-color: #222222;
+}
+
+
+/*FIM SEÇÃO 2*/
+
+/*INÍCIO SEÇÃO 3*/
+    #secao3{
+        background-color: #222222;
+        color: white;
+        height: 100%;
+    }
+    #btn3{
+        background-color: #28a1d5;
+        color: white;
+    }
+    #btn3:hover{
+        background-color: #1e7ca5;
+    }
+/*FIM SEÇÃO 3*/
+
+
+
+/*INÍCIO SEÇÃO 4*/
+    #secao4{
+        background-color: #222222;
+    }
+/*FIM SEÇÃO 4*/
+
+
+
+/*INÍCIO CONTEÚDO 1*/
+#conteudo1{
+    background-color: whitesmoke;
+    height: 100%;
+}
+#cx-meio2{
+    background-image:url(../img/construção.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+}
+#conteudo1 h4{
+    padding: 80px 0 0 0;
+}
+#conteudo1 img{
+    color: black;
+}
+#cx-meio1 p{
+    width: 500px;
+    text-indent: 2px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+/*FIM CONTEUDO 1*/
+
+
+
+
+/*INÍCIO FOOTER*/
+    footer{
+        clear: both;
+    }
+
+    #secao5{
+      color: white;
+      background-color: #28a1d5;
+      width: 100%;
+    }
+/*FIM FOOTER*/
+
+/*MÍDIA*/
+    @media (max-width: 334.0px){
+        div #cx-tx2 #tx1 h1{
+            font-size: 14pt;
+        }
+        div #cx-tx2 #tx1 h5{
+            font-size: 18px;
+        }
+        #tx1{
+            padding-top: 50px;
+        }
+    }
+    @media (max-width: 403.0px){
+        #cx-tx2 #tx1 h1{
+            font-size: 25pt;
+        }
+    }
+    @media (max-width: 575.0px) {  
+        #cx-tx1{
+            top: 0px;
+            margin-bottom: 100px;
+        }
+        #cx-tx1 h1{
+            font-size: 20pt;
+        }
+        #cx-tx1 h2{
+            font-size: 14pt;
+        }
+        #cx-tx1 h3{
+            font-size: 16pt;
+        }
+        #btn1{
+            width: 200px;
+            padding: 4px;
+        }
+        #tx1{
+            margin-top: 20px;
+        }
+        #pt2 img{
+            width: 150px;
+            height: 200px;
+        }
+        #cx-tx3 hr{
+            display: none;
+        }
+        #logo{
+            width:50%;
+        }
+    }
+    @media (max-width: 721.0px){
+        #tx1 h1{
+            font-size: 30pt;
+        }
+        #tx1 h5{
+            font-size: 15pt;
+        }
+    }
+    @media(max-width:767px){
+        #btnav{
+            background-color: whitesmoke;
+        }
+        #btnav span{
+            color: #28a1d5;
+        }
+    }
+    @media  (min-width:575.1px) and(max-width: 999.0px) {  
+        #cx-tx1{
+            top: 100px;
+        }
+    }
+    
+ 
+ /*FIM MÍDIA*/
+
+ /*SCROLLBAR*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    background-color: #222222;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #28a1d5; 
+    border-radius: 10px;
+  }
+/*FIM SCROLLBAR*/
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+
+
+
+
+
+/*INÍCIO MATERIAL DE CONTRUÇÃO*/
+.card{
+    background-color: #222222;
+    color: white;
+}
+#cx1-pg2{
+    background-color: whitesmoke;
+    height: auto;
+}
+#cx1-pg2 li:hover{
+    background-color: #28a1d5;
+}
+
+#secao-baixo-footer{
+    background-color: #222222;
+    height: 300px;
+}
+@media (max-width: 575.0px){
+
+}
+/*FIM MATERIAL DE CONTRUÇÃO*/
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+/*INÍCIO PLACAS DE SINALIZAÇÃO*/
+
+#placas-cx div.card{
+    margin: 0 auto;
+    background-color: whitesmoke;
+    color: black;
+    max-width: 100%;
+}
+#placas-cx div.card{
+    margin: 0 auto;
+    border: 1px solid #1c698a;
+}
+#fx1{
+    background-image: url(../img/suportes2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    align-items: center;
+    text-align: start;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
+}
+#fx2{
+    background-image: url(../img/inmetro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+/*FIM PLACAS DE SINALIZAÇÃO*/
+
+
+
+/*------------------------------------------------------------------*/
+
+
+
+/*INÍCIO OBRAS E PROJETOS*/
+#fx3{
+    background-image: url(../img/img04.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+
+}
+#fx4{
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+#obras p{
+    text-indent: 15px;
+}
+#obras li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+/*FIM OBRAS E PROJETOS*/
